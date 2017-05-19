@@ -1,9 +1,7 @@
 ### Breakpoint
-
 Create breakpoint to control flow of your content on layout in any resolution
 
 ### Resolutions default
-
 ```
 $small-breakpoint:  em-calc(640)  !default;
 $medium-breakpoint: em-calc(1024) !default;
@@ -27,5 +25,12 @@ Feel free to override breakpoint, he is only `!default`.
 @include xxlarge-only { /* style here */ }
 ```
 
+### Example
+Open example's folder and open index.html =)
+Edit in `sass` folder the file `demo.scss` and enjoy!
+
+### Compile demo.scss
+> yarn start
+
 ### Contribution
-This repository make party of my studies about responsive design, please create a [Issue](https://github.com/ralfting/breakpoint/issues) or send a pull request with enhancements. Thanks!
+This repository make party of my studies about responsive design, please create a [Issue](https://github.com/ralfting/breakpoint/issues) or send a pull request with enhancements. Thank you!
