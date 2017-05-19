@@ -14,14 +14,19 @@ Feel free to override breakpoint, he is only `!default`.
 ### Mixins
 ```
 @include small-up { /* style here */ }
+@include small-down { /* style here */ }
 @include small-only { /* style here */ }
 @include medium-up { /* style here */ }
+@include medium-down { /* style here */ }
 @include medium-only { /* style here */ }
 @include large-up { /* style here */ }
+@include large-down { /* style here */ }
 @include large-only { /* style here */ }
 @include xlarge-up { /* style here */ }
+@include xlarge-down { /* style here */ }
 @include xlarge-only { /* style here */ }
 @include xxlarge-up { /* style here */ }
+@include xxlarge-down { /* style here */ }
 @include xxlarge-only { /* style here */ }
 
 @include media-between(<start>, <end>) { /* style here */ } // dont pass px just the number: `(1000, 1220)`
