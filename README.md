@@ -23,6 +23,8 @@ Feel free to override breakpoint, he is only `!default`.
 @include xlarge-only { /* style here */ }
 @include xxlarge-up { /* style here */ }
 @include xxlarge-only { /* style here */ }
+
+@include media-between(<start>, <end>) { /* style here */ } // dont pass px just the number: `(1000, 1220)`
 ```
 
 ### Example

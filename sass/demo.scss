@@ -24,4 +24,9 @@ body {
   @include xxlarge-up {
     background-color: black;
   }
+
+  // custom media min 1300 and max 1400
+  @include media-between(1300, 1400) {
+    background-color: brown;
+  }
 }
