@@ -14,7 +14,6 @@ Feel free to override breakpoint, he is only `!default`.
 ### Mixins
 ```css
 @include small-up { /* style here */ }
-@include small-down { /* style here */ }
 @include small-only { /* style here */ }
 @include medium-up { /* style here */ }
 @include medium-down { /* style here */ }
