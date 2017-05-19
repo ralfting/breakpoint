@@ -2,7 +2,7 @@
 Create breakpoint to control flow of your content on layout in any resolution
 
 ### Resolutions default
-```
+```css
 $small-breakpoint:  em-calc(640)  !default;
 $medium-breakpoint: em-calc(1024) !default;
 $large-breakpoint:  em-calc(1440) !default;
@@ -12,7 +12,7 @@ $xlarge-breakpoint: em-calc(1920) !default;
 Feel free to override breakpoint, he is only `!default`.
 
 ### Mixins
-```
+```css
 @include small-up { /* style here */ }
 @include small-down { /* style here */ }
 @include small-only { /* style here */ }
