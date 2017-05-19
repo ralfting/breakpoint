@@ -21,3 +21,7 @@
 @media only screen and (min-width: 120.0625em) {
   body {
     background-color: black; } }
+
+@media only screen and (min-width: 81.25em) and (max-width: 87.5em) {
+  body {
+    background-color: brown; } }
