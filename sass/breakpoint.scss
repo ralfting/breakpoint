@@ -11,11 +11,11 @@ $xlarge-breakpoint: em-calc(1920) !default;
 $browser-context: 16 !default;
 
 // Here we define the lower and upper bounds for each media size
-$small-range:   (0, $small-breakpoint) !default; /* 0, 640px */
-$medium-range:  (sum($small-breakpoint, em-calc(1)), $medium-breakpoint) !default; /* 641px, 1024px */
-$large-range:   (sum($medium-breakpoint, em-calc(1)), $large-breakpoint)  !default; /* 1025px, 1440px */
-$xlarge-range:  (sum($large-breakpoint,  em-calc(1)), $xlarge-breakpoint) !default; /* 1441px, 1920px */
-$xxlarge-range: (sum($xlarge-breakpoint, em-calc(1)), em-calc(99999999)) !default; /* 1921px, ... */
+$small-range:   (0, $small-breakpoint) !default; // 0, 640px
+$medium-range:  (sum($small-breakpoint, em-calc(1)), $medium-breakpoint) !default; // 641px, 1024px
+$large-range:   (sum($medium-breakpoint, em-calc(1)), $large-breakpoint)  !default; // 1025px, 1440px
+$xlarge-range:  (sum($large-breakpoint,  em-calc(1)), $xlarge-breakpoint) !default; // 1441px, 1920px
+$xxlarge-range: (sum($xlarge-breakpoint, em-calc(1)), em-calc(99999999)) !default; // 1921px, ...
 
 // Media Queries
 $screen: "only screen" !default;
@@ -95,4 +95,3 @@ $xxlarge-only: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)}) and (m
 @mixin xxlarge-only {
   @media #{$xxlarge-only} { @content; }
 }
-

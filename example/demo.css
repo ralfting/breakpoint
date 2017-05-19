@@ -1,0 +1,23 @@
+@media only screen {
+  body {
+    background-color: red; } }
+
+@media only screen and (min-width: 40.0625em) {
+  body {
+    background-color: green; } }
+
+@media only screen and (min-width: 64.0625em) {
+  body {
+    background-color: blue; } }
+
+@media only screen and (min-width: 64.0625em) {
+  body {
+    background-color: yellow; } }
+
+@media only screen and (min-width: 90.0625em) {
+  body {
+    background-color: purple; } }
+
+@media only screen and (min-width: 120.0625em) {
+  body {
+    background-color: black; } }

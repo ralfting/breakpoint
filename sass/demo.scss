@@ -1,0 +1,27 @@
+@import "./breakpoint";
+
+body {
+  @include small-up {
+    background-color: red;
+  }
+
+  @include medium-up {
+    background-color: green;
+  }
+
+  @include large-up {
+    background-color: blue;
+  }
+
+  @include large-up {
+    background-color: yellow;
+  }
+
+  @include xlarge-up {
+    background-color: purple;
+  }
+
+  @include xxlarge-up {
+    background-color: black;
+  }
+}

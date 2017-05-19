@@ -1,0 +1,20 @@
+{
+  "name": "Breakpoints",
+  "version": "1.0.0",
+  "description": "Breakpoints to responsive layouts",
+  "main": "index.js",
+  "repository": "https://github.com/ralfting/breakpoint.git",
+  "author": "Ralph Effting <ralfting@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "yarn install",
+    "start": "gulp"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.3.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "vinyl-map": "^1.0.2"
+  }
+}
